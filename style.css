@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+html,body{height:100%;}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('https://i.ibb.co/NFRhL44/img.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    width: 400px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 30px 40px;
+    box-shadow: 0 0 10px rgba(0red, 0, 0, 0.2);
+    backdrop-filter: blur(50px);
+}
+
+.container h1{
+    font-size: 36px;
+    text-align: center;
+}
+
+.input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    font-size: 16px;
+    padding: 20px 45px 20px 20px;
+    border-radius: 40px;
+    border: 2px solid white;
+}
+
+.input-box input::placeholder{
+    color: white;
+}
+
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.lembrar{
+    display: flex;
+    justify-content: space-between;
+    margin: -15px 0 15px;
+}
+
+.lembrar label input{
+    accent-color: white;
+    margin-right: 5px;
+}
+
+.lembrar a{
+    text-decoration: none;
+    color: white;
+}
+
+.lembrar a:hover{
+    text-decoration: underline;
+}
+
+.login{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    color: grey;
+    font-weight: 600;
+    box-shadow:  0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.login:hover{
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    transition: 0.5s;
+}
+
+.registrar{
+    text-align: center;
+    font-size: 14px;
+    margin: 20px 0 15px;
+}
+
+.registrar a{
+    font-weight: 500;
+}
+
+.registrar a:hover{
+    text-decoration: underline;
+}
